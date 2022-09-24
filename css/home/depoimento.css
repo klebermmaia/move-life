@@ -1,1 +1,52 @@
-.depoimento{grid-template-columns:1fr 1fr;background-color:var(--p1)}.img-depoimeto img{object-fit:cover;height:100%}.quote{padding:0 40px 80px 80px;align-self:end;overflow:hidden}.quote p{font-family:"Merriweather",serif;color:var(--p5);max-width:32ch;margin-bottom:32px;position:relative}.quote p::before{content:"“";font-size:4rem;color:var(--p2);position:absolute;top:-10px;left:-40px}.quote p::after{content:'”';font-size:4rem;color:var(--p2);position:absolute}.cite{color:var(--p4)}@media (max-width: 800px){.depoimento{grid-template-columns:1fr}.img-depoimeto img{max-height:200px;width:100%}.quote{padding:40px 20px;text-align:center;justify-self:center}.font-1-xl{font-size:1.5rem}}
+.depoimento{
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--p1);
+}
+.img-depoimeto img{
+  object-fit: cover;
+  height: 100%;
+}
+.quote{
+  padding: 0px 40px 80px 80px; 
+  align-self: end;
+  overflow: hidden;
+}
+.quote p{
+  font-family: "Merriweather", serif;
+  color: var(--p5);
+  max-width: 32ch;
+  margin-bottom: 32px;
+  position: relative;
+}
+.quote p::before{
+content: "“";
+font-size: 4rem;
+color: var(--p2);
+position: absolute;
+top: -10px;
+left: -40px;
+}
+.quote p::after{
+content: '”';
+font-size: 4rem;
+color: var(--p2);
+position: absolute;
+}
+.cite{
+  color: var(--p4);
+}
+
+@media (max-width: 800px){
+  .depoimento{
+    grid-template-columns: 1fr;
+  }
+  .img-depoimeto img{
+    max-height: 200px;
+    width: 100%;
+  }
+  .quote{ 
+    padding: 40px 20px;
+    text-align: center;
+    justify-self: center;
+  }
+}

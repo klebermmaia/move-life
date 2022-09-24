@@ -1,1 +1,172 @@
-.contato-body{background:linear-gradient(to bottom,var(--cor-13)600px,var(--cor-2)0px)}.titulo-contato{color:var(--cor-1);padding:60px 20px;background:url(../../img/dec/top-right.svg) no-repeat top 60px right 20px}.titulo-contato > span{color:var(--cor-6)}.contato-form{grid-template-columns:5fr 7fr}.contato-loja{padding:60px;background:url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;background-color:var(--cor-15)}.contato-loja h2{margin-bottom:60px;color:var(--cor-1)}.endereço{background:url(../../img/icones/local.svg) no-repeat 0 2px;padding-left:28px;margin-bottom:32px}.endereço p{margin-bottom:8px;color:var(--cor-6)}.email-tel{background:url(../../img/icones/email.svg) no-repeat 0 2px;margin-bottom:60px}.email-tel a{display:block;margin-bottom:8px;color:var(--cor-6);padding-left:28px;max-width:max-content}.email-tel a:nth-child(2){margin-bottom:32px}.email-tel a:nth-child(3){background:url(../../img/icones/telefone.svg) no-repeat}.contato-rede{gap:32px;padding-left:28px}.formulario{background:url(../../img/dec/bottom-right.svg) no-repeat bottom 20px right 20px;background-color:var(--cor-1);padding:60px;grid-template-columns:1fr 1fr;gap:20px}.formulario label{display:block;font:600 1rem/1.5 Poppins,sans-serif;margin-bottom:8px}.formulario input,.formulario textarea{display:block;padding:12px;border:1px solid var(--cor-3);background-color:var(--cor-2);border-radius:4px;font:400 1rem/1.5 Roboto,sans-serif;width:100%;box-sizing:border-box}.coluna-l{grid-column:span 2}.formulario input:focus,.formulario textarea:focus{border:1px solid var(--p2);outline:none;box-shadow:0 0 0 2px #fea;background-color:var(--cor-1)}.lojas{padding-top:120px;padding-bottom:120px;grid-template-columns:1fr 1fr;gap:0 40px}.lojas h2{grid-column:span 2;margin-bottom:60px}.loja{background-color:var(--cor-1)}.contato-infor{padding:32px;grid-template-columns:1fr 1fr;gap:32px 16px}.contato-infor a{display:block}.infor{display:grid;gap:8px;border-left:2px solid var(--cor-3)}.contato-infor div p,.contato-infor a{color:var(--cor-9);padding-left:12px}.contato-infor h3,.contato-infor > p{grid-column:span 2}.contato-infor > p{display:flex;gap:8px;align-items:center}@media (max-width: 800px){.contato-form{grid-template-columns:1fr}.contato-loja{padding:30px 60px}.contato-loja h2,.email-tel{margin-bottom:30px}.contato-infor{grid-template-columns:1fr}.contato-infor h3,.contato-infor > p{grid-column:span 1}.lojas{gap:0 20px;padding-top:60px;padding-bottom:60px}}@media (max-width: 600px){.formulario{grid-template-columns:1fr;padding:30px}.coluna-l{grid-column:span 1}.lojas{grid-template-columns:1fr;gap:40px 0}.lojas h2{grid-column:span 1;margin-bottom:40px}}
+.contato-body{
+  background: linear-gradient(to bottom,var(--cor-13)600px, var(--cor-2)0px);
+}
+.titulo-contato{
+  color: var(--cor-1);
+  padding: 60px 20px;
+  background: url(../../img/dec/top-right.svg) no-repeat top 60px right 20px;
+
+}
+.titulo-contato > span{
+  color: var(--cor-6);
+}
+.contato-form{
+  grid-template-columns: 5fr 7fr;
+}
+.contato-loja{
+  padding: 60px;
+  background: url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
+  background-color: var(--cor-15);
+}
+.contato-loja h2{
+  margin-bottom: 60px;
+  color: var(--cor-1);
+}
+.endereço{
+  background: url(../../img/icones/local.svg) no-repeat 0 2px;
+  padding-left: 28px;
+  margin-bottom: 32px;
+}
+.endereço p{
+  margin-bottom: 8px;
+  color: var(--cor-6);
+}
+.email-tel{
+  background: url(../../img/icones/email.svg) no-repeat 0 2px;
+  margin-bottom: 60px;
+}
+.email-tel a{
+  display: block;
+  margin-bottom: 8px;
+  color: var(--cor-6);
+  padding-left: 28px;
+  max-width: max-content;
+}
+.email-tel a:nth-child(2){
+  margin-bottom: 32px;
+}
+.email-tel a:nth-child(3){
+  background: url(../../img/icones/telefone.svg) no-repeat;
+}
+.contato-rede{
+  gap: 32px;
+  padding-left: 28px;
+}
+.formulario{
+  background: url(../../img/dec/bottom-right.svg) no-repeat bottom 20px right 20px;
+  background-color: var(--cor-1);
+  padding: 60px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.formulario label{
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 8px;
+}
+
+.formulario input, .formulario textarea{
+  display: block;
+  padding: 12px;
+  border: 1px solid var(--cor-3);
+  background-color: var(--cor-2);
+  border-radius: 4px;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+.coluna-l{
+  grid-column: span 2;
+}
+.formulario input:focus, .formulario textarea:focus{
+  border: 1px solid var(--p2);
+  outline: none;
+  box-shadow: 0 0 0 2px #fea;
+  background-color: var(--cor-1);
+}
+
+.lojas{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+.lojas h2{
+  grid-column: span 2;
+  margin-bottom: 60px;
+}
+.loja{
+  background-color: var(--cor-1);
+}
+.contato-infor{
+  padding: 32px;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 16px;
+}
+.contato-infor a{
+  display: block;
+}
+.infor{
+  display: grid;
+  gap: 8px;
+  border-left: 2px solid var(--cor-3);
+}
+.contato-infor div p, .contato-infor a{
+  color: var(--cor-9);
+  padding-left: 12px;
+}
+.contato-infor h3, .contato-infor > p{
+  grid-column: span 2;
+}
+.contato-infor > p{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+@media (max-width: 800px){
+  .contato-form{
+    grid-template-columns: 1fr;
+  }
+  .contato-loja{
+    padding: 30px 60px;
+  }
+  .contato-loja h2, .email-tel{
+    margin-bottom: 30px;
+  }
+  .contato-infor{
+    grid-template-columns: 1fr;
+  }
+  .contato-infor h3, .contato-infor > p{
+    grid-column: span 1;
+  }
+  .lojas{
+    gap: 0 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 600px){
+  .formulario{
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+  .coluna-l{
+    grid-column: span 1;
+  }
+  .lojas{
+    grid-template-columns: 1fr;
+    gap: 40px 0;
+  }
+  .lojas h2{
+    grid-column: span 1;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 400px){
+  .contato-loja{
+    padding: 30px 10px 30px 40px;
+    background: url('');
+    background-color: var(--cor-15);
+  }
+}

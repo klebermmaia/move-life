@@ -1,1 +1,167 @@
-.seguro-titulo{grid-column:1/-1;background:url(../../img/dec/top-right.svg) no-repeat top right 20px}.seguro-titulo > span{color:var(--cor-6);margin-bottom:10px}.vantagens-seguro-bg{background-color:var(--cor-15);color:#fff}.vantagens{gap:60px;padding:120px 20px}.lista-vantagens{grid-template-columns:repeat(3,1fr);gap:40px 80px}.lista-vantagens img{margin-bottom:10px;width:28px}.lista-vantagens p{color:var(--cor-6)}.perguntas{padding:120px 20px}.perguntas h2{margin-bottom:60px}.lista-perguntas div:nth-child(odd){background-color:var(--cor-2)}.lista-perguntas div{padding:20px}.lista-perguntas div button{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:8px;cursor:pointer;border:none;background:none;width:100%;text-align:left}.lista-perguntas div button::before{content:"";display:inline-block;width:12px;height:8px;background-color:var(--p1)}.lista-perguntas div button::after{content:"";display:inline-block;width:14px;height:6px;background:url(../../img/icones/seta-abrir.svg);transition:transform .2s}.lista-perguntas button:hover::after,.lista-perguntas button[aria-expanded="true"]::after{transform:rotate(180deg)}.lista-perguntas div dd{display:none;padding:16px 0 0 25px;max-width:75ch}.lista-perguntas div dd.ativo{display:block}@media (max-width: 600px){.lista-vantagens{grid-template-columns:1fr 1fr}}
+.seguro-titulo {
+  grid-column: 1/-1;
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
+}
+.seguro-titulo > span {
+  color: var(--cor-6);
+  margin-bottom: 10px;
+}
+.vantagens-seguro-bg {
+  background-color: var(--cor-15);
+  color: white;
+}
+.vantagens {
+  gap: 60px;
+  padding: 120px 20px;
+}
+.lista-vantagens {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 80px;
+}
+.lista-vantagens img {
+  margin-bottom: 10px;
+  width: 28px;
+}
+.lista-vantagens p {
+  color: var(--cor-6);
+}
+.perguntas {
+  padding: 120px 20px;
+}
+.perguntas h2 {
+  margin-bottom: 60px;
+}
+.lista-perguntas div:nth-child(odd) {
+  background-color: var(--cor-2);
+}
+.lista-perguntas div {
+  padding: 20px;
+}
+.lista-perguntas div button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+.lista-perguntas div button::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--p1);
+}
+.lista-perguntas div button::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url(../../img/icones/seta-abrir.svg);
+  transition: transform 0.2s;
+}
+.lista-perguntas button:hover::after,
+.lista-perguntas button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+.lista-perguntas div dd {
+  display: none;
+  padding: 16px 0 0 25px;
+  max-width: 75ch;
+}
+.lista-perguntas div dd.ativo {
+  display: block;
+}
+/*  */
+.seguros-bg{
+  background-color: var(--cor-14);
+}
+.seguros{
+  color: var(--cor-1);
+  padding: 60px 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.seguros h2{
+  grid-column: 1/-1;
+}
+.seguros-item{
+  grid-template-columns: 1fr auto;
+  background-color: var(--cor-15);
+  padding: 32px 32px 32px 60px;
+}
+.seguros-item h3{
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.seguros .seguros-item:nth-child(2) h3{
+  color: var(--cor-7);
+}
+.seguros .seguros-item:nth-child(3) h3{
+  color: var(--p2);
+}
+.seguros-item a{
+  grid-column: 1/-1;
+  align-self: end;
+  margin-top: 32px;
+}
+.plano-valor{
+  flex-direction: column;
+}
+.plano-valor span{
+  text-align: end;
+}
+.planos-vantagens{
+  grid-column: 1/-1;
+}
+.planos-vantagens li{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.planos-vantagens li::before{
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background: url(../../img/icones/lista.svg) no-repeat;
+  position: absolute;
+  left: -20px;
+}
+.planos-vantagens li:nth-child(n + 2){
+  margin-top: 20px;
+}
+@media (max-width: 1000px){
+  .lista-vantagens{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 900px){
+  .prata .plano-valor{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 800px){
+  .ouro .plano-valor{
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 730px){
+  .seguros{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px){
+  .lista-vantagens{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 400px){
+  .plano-valor{
+    font-size: 1rem !important;
+  }
+}

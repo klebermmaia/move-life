@@ -1,1 +1,127 @@
-.bikes-bg{padding:60px 0;background-color:var(--cor-13)}.titulo-bikes{color:var(--cor-1);background:url(../../img/dec/top-right.svg) no-repeat top right 20px}.titulo-bikes > span{color:var(--cor-6)}.produto-item{grid-template-columns:1fr 1fr;gap:40px;padding:60px 20px;background:url(../../img/dec/top-right.svg) no-repeat top 40px right 20px}.produto-conteudo{grid-template-columns:1fr auto;align-content:flex-start}.produto-conteudo h2,.produto-conteudo p{grid-column:1/-1}.produto-conteudo h2{margin-bottom:20px}.produto-conteudo h2::before{content:"";display:block;width:14px;height:8px;margin-bottom:8px;background-color:var(--p1)}.produto-conteudo p{max-width:70ch;margin-bottom:32px;color:var(--cor-10)}.produtos-vantagens{gap:16px;color:var(--cor-10)}.produtos-vantagens li{display:flex;align-items:center;gap:8px}.produtos-vantagens li img{width:24px;height:24px}.produto-conteudo a{place-self:end}.produto-img img,.produto-img span{grid-area:1/1}.produto-img img{object-position:right;object-fit:cover;height:100%;justify-self:end;border-radius:3px}.produto-img span{background-color:var(--cor-15);color:var(--cor-4);place-self:start end;padding:8px 16px 8px 10px;margin-top:20px;border-radius:4px 0 0 4px}.produto-item-bg:nth-child(odd){background:linear-gradient(to right,var(--cor-1) 30%,var(--cor-13) 0%)}.produto-item-bg:nth-child(odd) h2{color:var(--cor-1)}.produto-item-bg:nth-child(odd) p,.produto-item-bg:nth-child(odd) ul{color:var(--cor-5)}.produto-item-bg:nth-child(7){margin-bottom:120px}@media (max-width: 850px){.btn{padding:12px 26px;font-size:16px}}@media (max-width: 800px){.produto-item{gap:15px;padding:40px}.btn{padding:16px 30px;font-size:18px}.produto-item-bg:nth-child(odd){background:var(--cor-13)}}@media (max-width: 600px){.btn{padding:12px 26px;font-size:16px}.produtos-vantagens{grid-template-columns:1fr 1fr;margin-bottom:30px}.produto-conteudo{grid-template-columns:1fr;align-content:flex-start}.produto-conteudo a{place-self:start}.produto-img img{object-position:center}.produto-item-bg:nth-child(7){margin-bottom:60px}}@media (max-width: 500px){.produto-item{grid-template-columns:1fr}}
+.bikes-bg {
+  padding: 60px 0;
+  background-color: var(--cor-13);
+}
+
+.titulo-bikes {
+  color: var(--cor-1);
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
+}
+.titulo-bikes > span {
+  color: var(--cor-6);
+}
+.produto-item {
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px 20px;
+  background: url(../../img/dec/top-right.svg) no-repeat top 40px right 20px;
+}
+.produto-conteudo {
+  grid-template-columns: 1fr auto;
+  align-content: flex-start;
+}
+.produto-conteudo h2,
+.produto-conteudo p {
+  grid-column: 1/-1;
+}
+.produto-conteudo h2 {
+  margin-bottom: 20px;
+}
+.produto-conteudo h2::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 8px;
+  margin-bottom: 8px;
+  background-color: var(--p1);
+}
+.produto-conteudo p {
+  max-width: 70ch;
+  margin-bottom: 32px;
+  color: var(--cor-10);
+}
+.produtos-vantagens {
+  gap: 16px;
+  color: var(--cor-10);
+}
+.produtos-vantagens li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.produtos-vantagens li img {
+  width: 24px;
+  height: 24px;
+}
+.produto-conteudo a {
+  place-self: end;
+}
+.produto-img img,
+.produto-img span {
+  grid-area: 1/1;
+}
+.produto-img img {
+  object-position: right;
+  object-fit: cover;
+  height: 100%;
+  justify-self: end;
+  border-radius: 3px;
+}
+.produto-img span {
+  background-color: var(--cor-15);
+  color: var(--cor-4);
+  place-self: start end;
+  padding: 8px 16px 8px 10px;
+  margin-top: 20px;
+  border-radius: 4px 0 0 4px;
+}
+.produto-item-bg:nth-child(odd) {
+  background: linear-gradient(to right, var(--cor-1) 30%, var(--cor-13) 0%);
+} /* OU poderia fazer da forma a baixo */
+/* .produto-item-bg{
+box-shadow: inset 420px 0 0 white;
+} */
+.produto-item-bg:nth-child(odd) h2 {
+  color: var(--cor-1);
+}
+.produto-item-bg:nth-child(odd) p,
+.produto-item-bg:nth-child(odd) ul {
+  color: var(--cor-5);
+}
+.produto-item-bg:nth-child(7){
+  margin-bottom: 120px;
+}
+
+@media (max-width: 800px) {
+  .produto-item {
+    gap: 15px;
+    padding: 40px 40px;
+  }
+  .produto-item-bg:nth-child(odd) {
+    background: var(--cor-13);
+  }
+  .produtos-vantagens {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
+  .produto-conteudo {
+    grid-template-columns: 1fr;
+    align-content: flex-start;
+  }
+}
+@media (max-width: 600px) {
+  .produto-conteudo a {
+    place-self: start;
+  }
+  .produto-img img {
+    object-position: center;
+  }
+  .produto-item-bg:nth-child(7){
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 500px){
+  .produto-item{
+    grid-template-columns: 1fr;
+  }
+}
